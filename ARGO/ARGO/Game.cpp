@@ -1,7 +1,7 @@
 #include "Game.h"
 
 
-GameState Game::m_currentMode{ GameState::splash};
+GameState Game::m_currentMode{ GameState::mainMenu};
 EntityManager manager;
 auto& newPlayer(manager.addEntity("player"));
 auto& flag(manager.addEntity("goal"));
